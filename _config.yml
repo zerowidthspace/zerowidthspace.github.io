@@ -1,14 +1,26 @@
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title:            Zero Width Space
+description:      Blog for programming.
+url:              # Site url.
+signoff:          # Your name.
+disqus_shortname: zerowidthspace
+facebook_appid:   # appid for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # set tracking, remove from /javascripts/basic.js if unwanted.
 
-# Build settings
-markdown: kramdown
+links:
+  - name:         About
+    url:          /about
+  - name:         Blog
+    url:          http://zerowidthspace.github.io
+    external:     true
+  - name:         Email
+    url:          mailto:smiley325squared@gmail.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/smiley325
+    external:     true
+highlighter:      pygments
+permalink:        pretty
+markdown:         redcarpet
+redcarpet:
+  extensions:
+    - smart

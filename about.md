@@ -1,11 +1,10 @@
 ---
 layout: page
 title: About
-permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Welcome to my technical blog! All code on this website is under MIT license unless otherwise stated.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+<img title="profile for Andrew Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers" src="http://stackoverflow.com/users/flair/586660.png" alt="profile for Andrew Lee at Stack Overflow, Q&amp;A for professional and enthusiast programmers" width="208" height="58" />
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+<img src="http://projecteuler.net/profile/smiley325.png" alt="" />
