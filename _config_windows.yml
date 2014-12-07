@@ -10,11 +10,7 @@ links:
   - name:         About
     url:          /about
   - name:         Blog
-    url:          http://zerowidthspace.github.io
-    external:     true
-  - name:         Email
-    url:          mailto:smiley325squared@gmail.com
-    external:     true
+    url:          /
   - name:         GitHub
     url:          http://github.com/smiley325
     external:     true
