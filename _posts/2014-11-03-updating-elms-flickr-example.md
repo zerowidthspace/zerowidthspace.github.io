@@ -3,6 +3,10 @@ layout: post
 title: Updating Elm's Flickr Example
 date: 2014-11-03 15:00:00
 disqus: y
+tags:
+- elm
+- programming
+- tutorial
 ---
 
 Recently Elm received a new library called [elm-html](http://elm-lang.org/blog/Blazing-Fast-Html.elm), which allows for external HTML/CSS to be used with Elm code. I very much prefer this style of writing programs as it allows existing HTML/CSS designs and talent to be used, lowers the barrier for entry into Elm programming. On top of that, elm-html supports updating the DOM via reference-equals, a strategy which allows for highly performant UI, at least an order of magnitude faster than conventional MVC frameworks. Using elm-html comes with caveats, notably the inability to use the `Graphics.Input` interfaces. In this post I’ll update [Elm’s Flickr image search example](http://elm-lang.org/edit/examples/Intermediate/Flickr.elm) to use elm-html.

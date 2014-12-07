@@ -3,6 +3,9 @@ layout: post
 title: Faux Function Type Signatures in Python
 date: 2011-08-10 15:00:00
 disqus: y
+tags:
+- python
+- programming
 ---
 
 A recent post on [stackoverflow.com](http://stackoverflow.com/questions/7019283/automatically-type-cast-parameters-in-python) piqued my interest — how can we implement a sort of type signature for functions in Python? I.e., a function like

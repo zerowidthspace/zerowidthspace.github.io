@@ -14,6 +14,11 @@
           <h1 class="upcase">
             <div class='date'>{{ page.date | date_to_string }}</div>
             {{ page.title }}
+            <ul class="tags">
+              {% for tag in page.tags %}
+                <li>&#35;{{ tag }}</li>
+              {% endfor %}
+            </ul>
           </h1>
           {{ content }}
           {% include signoff.html %}
